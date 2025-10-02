@@ -13,8 +13,8 @@ import streamlit as st
 
 import pickle
 
-with open("D:/S2 - RAHMA YULIANA/DATA MINING/diabetes_model.sav", "rb") as file:
-    diabetes_model = pickle.load(file)
+with open("diabetes_model.sav", "rb") as f:
+    diabetes_model = pickle.load(f)
 
 
 # In[17]:
